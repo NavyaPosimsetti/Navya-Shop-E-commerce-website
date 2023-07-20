@@ -12,7 +12,6 @@ Iam a web developer.I have a good sound knowledge on Frontend and Backend langua
     The design will focus on creating an appealing interface for parents and caregivers, ensuring a similar shoping experience.
     JavaScript will be utilized to enhance interactivity and implement essential functionalities like cart management and checkout processes. 
 
-# Technologies used:
-HTML,CSS,JavaScript
-
 # SCREENSHOTS:
+# HOME PAGE:
+![Screenshot from 2023-07-21 01-05-27](https://github.com/NavyaPosimsetti/Navya-Shop-E-commerce-website/assets/132803056/70d83c63-cce5-4db0-b7fd-58ea0f6b2358)
