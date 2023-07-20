@@ -28,3 +28,11 @@ The below screenshots are belongs to home page
 ![Screenshot from 2023-07-21 01-17-57](https://github.com/NavyaPosimsetti/Navya-Shop-E-commerce-website/assets/132803056/97d535d7-7681-4ab2-b21f-a19ee8c17a31)
 
 # About page:
+![Screenshot from 2023-07-21 01-20-11](https://github.com/NavyaPosimsetti/Navya-Shop-E-commerce-website/assets/132803056/ac141689-da0f-4651-a5ad-2e8933ec47fb)
+![Screenshot from 2023-07-21 01-20-25](https://github.com/NavyaPosimsetti/Navya-Shop-E-commerce-website/assets/132803056/cf73ff32-7491-4308-a22b-8bf3ea933aec)
+
+# Cart Page:
+![Screenshot from 2023-07-21 01-21-21](https://github.com/NavyaPosimsetti/Navya-Shop-E-commerce-website/assets/132803056/67791384-9803-4cb4-afb6-dd0bc17eb3bc)
+![Screenshot from 2023-07-21 01-21-32](https://github.com/NavyaPosimsetti/Navya-Shop-E-commerce-website/assets/132803056/06d5cf69-f046-46ab-aae6-d75e411505e2)
+
+# Contact page:
