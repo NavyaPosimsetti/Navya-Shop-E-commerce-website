@@ -42,3 +42,5 @@ The below screenshots are belongs to home page
 ![Screenshot from 2023-07-21 01-21-03](https://github.com/NavyaPosimsetti/Navya-Shop-E-commerce-website/assets/132803056/f39a262a-8d45-4609-a90f-35ce27580205)
 
 # Thank you page:
+![Screenshot from 2023-07-21 01-31-21](https://github.com/NavyaPosimsetti/Navya-Shop-E-commerce-website/assets/132803056/b0753dbc-6e52-43bb-a964-393474ffefd8)
+
