@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navya's Shop - Single Product</title>
+    <!-- font-awesome CDN link   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <!-- External CSS   -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header  -->
+    <section id="header">
+        <!-- <a href="#"><img src="" /></a> -->
+        <a href="index.html">
+            <p class="logo">Navya's Shop</p>
+        </a>
+        <div>
+            <ul id="navBar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="cart"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times" aria-hidden="true"></i></a>
+            </ul>
+        </div>
+        <div id="hamburger_menu">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+
+
+        </div>
+    </section>
+    <section id="Product_Details" class="section-p1">
+        <div class="single_product_img">
+            <img src="images/kid1.jpg " id="main_Img" width="100%" alt="hoodie">
+            <div class="sml_img_group">
+                <div class="sml_img_col">
+                    <img src="images/kid2.jpg " class="sml_Img" width="100%" alt="">
+                </div>
+                <div class="sml_img_col">
+                    <img src="images/kid3.jpg " class="sml_Img" width="100%" alt="">
+                </div>
+                <div class="sml_img_col">
+                    <img src="images/kid4.jpg " class="sml_Img" width="100%" alt="">
+                </div>
+                <div class="sml_img_col">
+                    <img src="images/kid5.jpg " class="sml_Img" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single_product_details">
+            <h6>Home / Fashion</h6>
+            <h4>kidswear</h4>
+            <h2>₹500</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>L</option>
+                <option>M</option>
+                <option>S</option>
+            </select>
+            <input type="number" value="1">
+            <button onclick="redirectToAnotherPage()">Add to Cart</button>
+            <h4>Product Detail</h4>
+            <span>This is Navya,s shop product.It is a Traditional Kidsware which makes children very comfortable.
+                It made with pure cotton and polister which looks like as sparking...  </span>
+
+        </div>
+    </section>
+    <!-- New Arrivals  -->
+    <section id="featureProducts" class="section-p1">
+        <h2>Feature Products</h2>
+        <p>Summer Collection - New Modern Designs</p>
+        <div class="f-Container">
+
+            <div class="products">
+                <img src="images/kid11.jpg" alt="FProduct">
+                <div class="description">
+                    <span>Kidsware</span>
+                    <h5>Half saree</h5>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹500</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="products">
+                <img src="images/kid7.jpg" alt="FProduct">
+                <div class="description">
+                    <span>Kidsware</span>
+                    <h5>kids favourate</h5>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹500</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="products">
+                <img src="images/kid11.jpg" alt="FProduct">
+                <div class="description">
+                    <span>Kidsware</span>
+                    <h5>Family Festival pack</h5>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹500</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+            <div class="products">
+                <img src="images/kid12.jpg" alt="FProduct">
+                <div class="description">
+                    <span>Kidsware</span>
+                    <h5>Traditional sets</h5>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>₹500</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- newsletters  -->
+    <section id="newsletters" class="section-p1 section-m1">
+        <div class="newsText">
+            <h4>Sign up for Newsletters</h4>
+            <p>Get updates from email and get new arrivals, and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Enter your email">
+            <button onclick="redirecting()">Sign up</button>
+        </div>
+    </section>
+    <!-- footer  -->
+    <footer class="section-p1">
+        <div class="col">
+            <!-- <img src="" alt=""> -->
+            <p class="logo">Navya's Shop</p>
+            <h4>Contact</h4>
+            <p><strong>Address :</strong> Razole village,East godavari,Andhra Pradesh</p>
+            <p><strong>Phone :</strong> +91 9381512458</p> 
+            <p><strong>Hours :</strong> 10:00 AM - 10:00 PM | Mon-Sat</p>
+
+            <div class="follow">
+                <h4> Follow Us</h4>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Return policy</a>
+            <a href="#">Payment Policy</a>
+            <a href="#">Tearms and Condition</a>
+            <a href="#">Warranty & Repair</a>
+        </div>
+
+        <div class="col">
+            <h4>Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+            <a href="#">FAQ</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App store or google Pay</p>
+            <div class="row">
+                <img src="images/gpp1.png" alt="">
+                <img src="images/gpp2.png" alt="">
+            </div>
+            <p>From App store or google Pay</p>
+            <div class="row">
+                <img src="images/payment.png" alt="">
+            </div>
+        </div>
+        
+    </footer>
+
+
+    <!-- External JS  -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
